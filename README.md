@@ -1,5 +1,11 @@
 # Yaks::Syro
 
+[![Gem](https://img.shields.io/gem/v/yaks-syro.svg)](https://rubygems.org/gems/yaks-syro)
+[![Build Status](https://travis-ci.org/sagmor/yaks-syro.svg)](https://travis-ci.org/sagmor/yaks-syro)
+[![Test Coverage](https://codeclimate.com/github/sagmor/yaks-syro/badges/coverage.svg)](https://codeclimate.com/github/sagmor/yaks-syro/coverage)
+[![Code Climate](https://codeclimate.com/github/sagmor/yaks-syro/badges/gpa.svg)](https://codeclimate.com/github/sagmor/yaks-syro)
+[![Inline docs](http://inch-ci.org/github/sagmor/yaks-syro.svg?branch=master)](http://inch-ci.org/github/sagmor/yaks-syro)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/yaks/syro`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
