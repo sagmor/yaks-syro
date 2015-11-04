@@ -1,7 +1,17 @@
 language: ruby
 rvm:
-  - 2.2.3
+  - 2.0
+  - 2.1
+  - 2.2
+  - rbx-2
+  - jruby
+  - ruby-head
+  - jruby-head
 before_install: gem install bundler -v 1.10.6
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+    - rvm: jruby-head
 addons:
   code_climate:
     repo_token: 32699e05aed21bd9026b065e349447cdc048df7be29d8d28a6ca1f6e328f7ff3
