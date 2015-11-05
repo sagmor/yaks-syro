@@ -25,6 +25,7 @@ module Yaks # :nodoc:
       res.write runner.call
     end
 
+    # Methods extended when {Yaks::Syro} is included
     module ClassMethods
 
       # Yaks configuration object
@@ -34,6 +35,8 @@ module Yaks # :nodoc:
 
       # Configure Yaks
       #
+      # @param block Configuration block executed in the context of {yaks_config}
+      # @returns [void]
       # @example
       #     class MyApp < Syro::Deck
       #       include Yaks::Syro
